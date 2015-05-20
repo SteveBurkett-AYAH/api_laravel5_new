@@ -145,6 +145,11 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		/*
+		 * Added Service Providers...
+		 */
+		'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
+
 	],
 
 	/*
@@ -192,6 +197,7 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+		'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 
 	],
 
