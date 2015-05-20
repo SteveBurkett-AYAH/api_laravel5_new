@@ -202,7 +202,8 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 		'Flash'     => 'Laracasts\Flash\Flash',
-		'Html'      => 'Illuminate\Html\FormFacade',
+		'Form'      => 'Illuminate\Html\FormFacade',
+		'Html'      => 'Illuminate\Html\HtmlFacade',
 
 	],
 
