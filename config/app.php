@@ -149,6 +149,7 @@ return [
 		 * Added Service Providers...
 		 */
 		'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
+		'Laracasts\Flash\FlashServiceProvider',
 
 	],
 
@@ -198,6 +199,7 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
+		'Flash'     => 'Laracasts\Flash\Flash',
 
 	],
 
