@@ -150,6 +150,8 @@ return [
 		 */
 		'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
 		'Laracasts\Flash\FlashServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',
+
 
 	],
 
@@ -200,6 +202,7 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 		'Flash'     => 'Laracasts\Flash\Flash',
+		'Html'      => 'Illuminate\Html\FormFacade',
 
 	],
 
