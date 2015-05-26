@@ -1,6 +1,6 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "areyouahuman/laravel-base",
+	"description": "The base Laravel 5 Framework setup for Are You a Human applications.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
